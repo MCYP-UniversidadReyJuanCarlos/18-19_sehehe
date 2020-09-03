@@ -1,5 +1,5 @@
 # Project title
-DESARROLLO DE UNA HERRAMIENTA DE PRIVACIDAD PARA SISTEMAS DE ALMACENAMIENTO CLOUD
+Desarrollo de una herramienta de privacidad para sistemas de almacenamiento cloud.
 
 ## Project description
 
@@ -8,6 +8,8 @@ Este trabajo se ha dedicado a automatizar el proceso de añadir una capa extra d
 ## Features
 
 Realiza un recorrido por el directorio que se le indique, en él irá borrando los datos EXIF de las imágenes, después cifrará todos los archivos que contengan la ruta, individualmente usando un cifrado AES y una función hash SHA256 de la contraseña introducida. Después se subiran todas las imagenes cifradas por separado a Google Drive.
+
+Esta herramienta puede ser usada tanto en sistemas MacOS, Windows o Linux.
 
 
 ## How to run
@@ -20,10 +22,6 @@ Vía terminal:
 Herramienta gráfica:
 > python3 security_cloud_graph.py
 
-
-## Basic usage
-
-## Development documentation
 
 ## Architecture
 
