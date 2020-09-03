@@ -25,19 +25,19 @@ Herramienta gráfica:
 
 ## Architecture
 Existen dos versiones, una versión gráfica y otra vía comandos desde la terminal. Ambas realizan las mismas funciones. El funcionamiento de la herramienta es el siguiente:
-•	Se selecciona la ruta en la que se encuentran los ficheros que se quieren subir a Google Drive. La selección funciona de manera recursiva, por lo que, si existen subcarpetas con ficheros, la aplicación también los sincronizará.
+- Se selecciona la ruta en la que se encuentran los ficheros que se quieren subir a Google Drive. La selección funciona de manera recursiva, por lo que, si existen subcarpetas con ficheros, la aplicación también los sincronizará.
 
-•	Se elige la contraseña que se utilizará para cifrar o descifrar los ficheros de manera independiente.
+- Se elige la contraseña que se utilizará para cifrar o descifrar los ficheros de manera independiente.
 
-•	La herramienta da la opción de sincronizar o descifrar los ficheros que se encuentren en la ruta indicada anteriormente.
+- La herramienta da la opción de sincronizar o descifrar los ficheros que se encuentren en la ruta indicada anteriormente.
 
-o	Si elige sincronizar:
+      - Si elige sincronizar:
 
-	Se recorre el directorio de manera recursiva, elimina los datos exif de todas las imágenes, se cifran todos los ficheros que contengan la ruta independientemente, usando un cifrado AES, y por último se suben los ficheros cifrados a Google Drive.
+           - Se recorre el directorio de manera recursiva, elimina los datos exif de todas las imágenes, se cifran todos los ficheros que contengan la ruta independientemente, usando un cifrado AES, y por último se suben los ficheros cifrados a Google Drive.
 
-o	Si elige descifrar:
+      - Si elige descifrar:
 
-	Se descifran todos los ficheros que se encuentren en la ruta indicada de forma recursiva y que se hayan cifrado anteriormente con la herramienta.
+           - Se descifran todos los ficheros que se encuentren en la ruta indicada de forma recursiva y que se hayan cifrado anteriormente con la herramienta.
 
 ![Arquitectura](imagenes/Arquitectura.jpg)
 
