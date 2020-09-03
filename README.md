@@ -1,4 +1,4 @@
-#Project title
+# Project title
 DESARROLLO DE UNA HERRAMIENTA DE PRIVACIDAD PARA SISTEMAS DE ALMACENAMIENTO CLOUD
 
 ## Project description
@@ -12,5 +12,6 @@ Realiza un recorrido por el directorio que se le indique, en el irá borrando lo
 > pip install -r requirements.txt
 
 ## How to run
-python3 security_cloud.py
-python3 security_cloud_graph.py
+
+> python3 security_cloud.py
+> python3 security_cloud_graph.py
