@@ -7,14 +7,17 @@ Este trabajo se ha dedicado a automatizar el proceso de añadir una capa extra d
 
 ## Features
 
-Realiza un recorrido por el directorio que se le indique, en el irá borrando los datos EXIF, cifrando las imagenes, una por una usando SHA256 y la contraseña introducida. Después se subiran todas las imagenes cifradas por separado a Google Drive.
+Realiza un recorrido por el directorio que se le indique, en él irá borrando los datos EXIF de las imágenes, después cifrará todos los archivos que contengan la ruta, individualmente usando un cifrado AES y una función hash SHA256 de la contraseña introducida. Después se subiran todas las imagenes cifradas por separado a Google Drive.
 
-> pip install -r requirements.txt
 
 ## How to run
+Librerias necesarias:
+> pip install -r requirements.txt
 
-> python3 security_cloud.py
+Vía terminal:
+> python3 security_cloud.py 
 
+Herramienta gráfica:
 > python3 security_cloud_graph.py
 
 
