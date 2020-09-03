@@ -40,15 +40,15 @@ Lo primero es ir a la consola de desarrolladores de Google con la cuenta que se 
 
 4.	Después se debe configurar el nombre del producto y la pantalla de consentimiento -> en "Configurar pantalla de consentimiento" y seguir las indicaciones. Una vez terminado:
 
-  4.1.	Seleccionar "Tipo de aplicación" para que sea una aplicación web.
+       4.1.	Seleccionar "Tipo de aplicación" para que sea una aplicación web.
   
-  4.2.	Asignar un nombre.
+       4.2.	Asignar un nombre.
   
-  4.3.	Introducir http://localhost:8080 para "Orígenes autorizados de JavaScript".
+       4.3.	Introducir http://localhost:8080 para "Orígenes autorizados de JavaScript".
   
-  4.4.	Ingrese http://localhost:8080/ para "URI de redireccionamiento autorizado".
+       4.4.	Ingrese http://localhost:8080/ para "URI de redireccionamiento autorizado".
   
-  4.5.	Clic en Guardar'.
+       4.5.	Clic en Guardar'.
 
 5.	Seleccionar "Descargar JSON" en el lado derecho del ID de cliente para descargar client_secret_ <ID largo> .json.
 
