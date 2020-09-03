@@ -24,7 +24,7 @@ Herramienta gráfica:
 
 
 ## Architecture
-![alt text](https://raw.githubusercontent.com/SergioHeredero-URJC/MCYP-UniversidadReyJuanCarlos/18-19_sehehe/imagenes/Arquitectura.jpg)
+![Arquitectura](imagenes/Arquitectura.jpg)
 
 ## Prepare development/execution environment
 La API de Google Drive requiere OAuth2.0 para la autenticación, se utiliza para paliar la necesidad que se establece del envío continuo de credenciales entre cliente y servidor. Si la aplicación cliente es nuestra y la API REST también, posiblemente no existan grandes dificultades. El problema está cuando se quiere hacer una integración con aplicaciones de terceros, ahí es donde aparece la dificultad. Con OAuth2 el usuario delega la capacidad de realizar ciertas acciones, no todas, a las cuales da su consentimiento para hacerlas en su nombre.
